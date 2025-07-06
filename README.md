@@ -28,7 +28,7 @@ AIシステム開発の講義課題として作成した、有望な人材を推
     ターミナルを開き、以下のコマンドを実行してファイルをダウンロードします。`your-username` の部分はご自身のGitHubユーザー名に置き換えてください。
 
     ```bash
-    git clone https://github.com/your-username/talent-recommender-app.git
+    git clone https://github.com/nicejp/talent-recommender-app.git
     ```
 
 2.  **ディレクトリに移動**
