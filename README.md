@@ -24,20 +24,34 @@ AIシステム開発の講義課題として作成した、有望な人材を推
 
 ## 🚀 使い方（ローカル環境での実行）
 
-1.  このリポジトリをクローンまたはダウンロードします。
+1.  **リポジトリをクローン**
+    ターミナルを開き、以下のコマンドを実行してファイルをダウンロードします。`your-username` の部分はご自身のGitHubユーザー名に置き換えてください。
+
     ```bash
-    git clone [https://github.com/nicejp/talent-recommender-app.git](https://github.com/nicejp/talent-recommender-app.git)
+    git clone https://github.com/your-username/talent-recommender-app.git
+    ```
+
+2.  **ディレクトリに移動**
+    ダウンロードしたフォルダに移動します。
+
+    ```bash
     cd talent-recommender-app
     ```
-2.  必要なライブラリをインストールします。
+
+3.  **ライブラリをインストール**
+    プロジェクトに必要なライブラリをインストールします。
+
     ```bash
     pip install -r requirements.txt
     ```
-3.  Streamlitアプリケーションを実行します。
+
+4.  **アプリを実行**
+    以下のコマンドでローカルサーバーを起動します。
+
     ```bash
     streamlit run app.py
     ```
-4.  ブラウザで `http://localhost:8501` が開かれ、アプリケーションが表示されます。
+    実行後、自動的にブラウザで `http://localhost:8501` が開き、アプリケーションが表示されます。
 
 ## 今後の展望 (Next Steps)
 
